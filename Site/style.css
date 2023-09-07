@@ -1,0 +1,119 @@
+/*kommentaar*/
+header{
+    color: lightcyan;
+    background-color: #033;
+    font-size: 50px;
+    width: 70%;
+}
+header h1{
+    font-family: Algerian;
+    font-size: larger;
+    letter-spacing: 0.5cm;
+    border-bottom: solid 2px red;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-right: solid 1px red;
+    font-variant: small-caps;
+}
+ul{
+    list-style-type: none;
+    margin: 0; /*Väline vahe elementist*/
+    padding: 0; /*elemendi sisu ümber ruum*/
+    overflow: hidden;
+    background: lightseagreen;
+    width: 70%;
+}
+li a:hover {
+    background: orange;
+    color: blue;
+    text-decoration: underline;
+}
+.nimekiri{
+    list-style-type: circle;
+    margin: 0; /*Väline vahe elementist*/
+    padding: 20px; /*elemendi sisu ümber ruum*/
+    background: white;
+}
+
+img#pilt1{
+    width: 10%;
+    border: solid 3px red;
+    background-image: linear-gradient(to right, red , yellow);
+    box-shadow: 2px 1px;
+}
+img#pilt2{
+    width: 20%;
+    border: dotted 3px red;
+    background-image: linear-gradient(red, yellow);
+    box-shadow: 5px 5px;
+}
+
+img#pilt3{
+    width: 30%;
+    border: solid 3px darkblue;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, red , blue);
+    box-shadow: 3px 17px;
+}
+
+img#pilt4{
+    border: solid 3px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, white , black);
+    box-shadow: 3px 17px;
+}
+img#pilt4:hover{
+    border: solid 3px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, white , black);
+    box-shadow: 2px 2px;
+    width: 60%;
+}
+.SectionConteiner{
+    background-image: linear-gradient(to right, white , lightblue);
+    width: 70%;
+    border-radius: 30%;
+
+}
+.dive {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: cube;
+    animation-duration: 4s;
+}
+
+.Section2{
+    border: solid 3px;
+    border-radius: 50px;
+    background: linear-gradient(to right, white , black);
+    box-shadow: 3px 17px;
+    padding: 10px 10px;
+}
+
+.section1{
+    border: solid 3px red;
+    background: linear-gradient(to right, red , yellow);
+    box-shadow: 2px 1px;
+}
+
+@keyframes cube {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1000px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+

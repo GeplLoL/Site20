@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lihtned Tabelid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Lihtsamad tabelid</h1>
+<table id="table1">
+    <!--rida-->
+    <tr>
+        <!--lahter-->
+        <td>A</td>
+        <td>B</td>
+    </tr>
+    <!--rida.2-->
+    <tr>
+        <!--lahter.2-->
+        <td>C</td>
+        <td>D</td>
+    </tr>
+</table>
+<br><br><br>
+<table id="table2">
+    <caption>Tabel mis kasutab colspan</caption>
+    <!--rida-->
+    <tr>
+        <!--lahter-->
+        <td colspan="2">A</td>
+    </tr>
+    <!--rida.2-->
+    <tr>
+        <!--lahter.2-->
+        <td>P</td>
+        <td>C</td>
+    </tr>
+</table>
+<br><br><br>
+<table id="table3">
+    <caption>Tabel mis kasutab rowspan</caption>
+    <!--rida-->
+    <tr>
+        <!--lahter-->
+        <td rowspan="2">A</td>
+        <td>B</td>
+    </tr>
+    <!--rida.2-->
+    <tr>
+        <!--lahter.2-->
+
+        <td>C</td>
+    </tr>
+</table>
+<br><br><br>
+<table id="table4">
+    <!--rida-->
+    <tr>
+        <!--lahter-->
+        <td colspan="4", style="background: red">A</td>
+    </tr>
+    <tr>
+        <td colspan="2", rowspan="2", style="background: green">B</td>
+        <td colspan="2", style="background: blue">C</td>
+    </tr>
+    <tr>
+        <td rowspan="2", style="background: white">D</td>
+        <td style="background: grey">E</td>
+    </tr>
+    <!--rida.2-->
+    <tr>
+        <!--lahter.2-->
+        <td style="background: darkgoldenrod">G</td>
+        <td style="background: darkcyan"> </td>
+        <td style="background: darkorchid">F</td>
+    </tr>
+</table>
+</body>
+</html>
