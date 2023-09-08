@@ -1,24 +1,24 @@
 table {
-    border: solid 1px;
+    border: none;
     width: 60%;
     text-align: center;
 }
 td {
-    border: solid 1pt;
+    border: none;
 }
 
 #table1 {
-    border: solid 1pt red;
+    border: none;
     width: 40%;
     text-align: center;
 }
 #table2 {
-    border: solid 1pt green;
+    border: none;
     width: 40%;
     text-align: center;
 }
 #table3 {
-    border: solid 1pt blue;
+    border: none;
     width: 40%;
     text-align: center;
     height: 200px;
@@ -28,4 +28,230 @@ td {
     border: solid 1pt blue;
     width: 20%;
     text-align: center;
+}
+/*Eesti lipp*/
+table#Eesti {
+    width: 330px;
+    height: 210px;
+    border: none;
+    border-spacing: 0;
+}
+
+#Eesti tr:nth-child(1) {
+    background-color: blue;
+    border: none;
+}
+
+#Eesti tr:nth-child(2) {
+    background-color: black;
+    border: none;
+}
+
+#Eesti tr:nth-child(3) {
+    background-color: white;
+    border: none;
+}
+
+/*Saksa lipp*/
+table#Saksa {
+    width: 330px;
+    height: 210px;
+    border: 1px solid;
+    border-spacing: 0;
+    border: none;
+}
+
+#Saksa tr:nth-child(1) {
+    background-color: black;
+    border: none;
+}
+
+#Saksa tr:nth-child(2) {
+    background-color: red;
+    border: none;
+}
+#Saksa tr:nth-child(3) {
+    background-color: yellow;
+    border: none;
+}
+
+/*Irlandia lipp*/
+table#Irlandia {
+    width: 330px;
+    height: 210px;
+    border-spacing: 0;
+    border: none;
+}
+/*1 lahter*/
+#Irlandia tr>td:nth-child(1) {
+    background-color: green;
+    border: none;
+}
+/*2 lahter*/
+#Irlandia tr>td:nth-child(2) {
+    background-color: white;
+    border: none;
+}
+/*3 lahter*/
+#Irlandia tr>td:nth-child(3) {
+    background-color: orange;
+    border: none;
+}
+
+table#Sweden {
+    width: 330px;
+    height: 210px;
+    border-spacing: 0;
+    border: none;
+}
+
+/*1 lahter*/
+#Sweden tr:nth-child(1) td:nth-child(2) {
+    background-color: yellow;
+    width: 52px;
+    border: none;
+}
+/*2 lahter*/
+#Sweden tr:nth-child(1) td:nth-child(1)  {
+    background-color: blue;
+    width: 73px;
+    border: none;
+}
+#Sweden tr:nth-child(1) td:nth-child(3)  {
+    background-color: blue;
+    border: none;
+}
+#Sweden tr:nth-child(3) td:nth-child(1)  {
+    background-color: blue;
+    border: none;
+}
+#Sweden tr:nth-child(3) td:nth-child(2)  {
+    background-color: blue;
+    border: none;
+}
+/*3 lahter*/
+
+#Sweden tr:nth-child(2) td:nth-child(1) {
+    background-color: yellow;
+    height: 50px;
+    border: none;
+}
+#Islandia {
+    width: 330px;
+    height: 210px;
+    border-collapse: collapse;
+    border: none;
+}
+
+
+#Islandia>td {
+    background-color: #0052b4;
+    border: none;
+}
+
+#white {
+    border: none;
+    height: 2px;
+    width: 1px;
+}
+#Islandia tr:nth-child(1) td:nth-child(1),
+#Islandia tr:nth-child(1) td:nth-child(3),
+#Islandia tr:nth-child(1) td:nth-child(5)
+{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+#Islandia tr:nth-child(2) td:nth-child(1),
+#Islandia tr:nth-child(2) td:nth-child(3),
+#Islandia tr:nth-child(2) td:nth-child(5)
+{
+    background-color: white;
+    height: 2px;
+    width: 1px;
+    border: none;
+}
+#Islandia tr:nth-child(3) td:nth-child(1),
+#Islandia tr:nth-child(3) td:nth-child(2),
+#Islandia tr:nth-child(3) td:nth-child(4),
+#Islandia tr:nth-child(3) td:nth-child(5)
+{
+    background-color: red;
+    height: 30px;
+    width: 5px;
+    border: none;
+}
+#Islandia tr:nth-child(4) td:nth-child(1),
+#Islandia tr:nth-child(4) td:nth-child(3),
+#Islandia tr:nth-child(4) td:nth-child(5)
+{
+    background-color: white;
+    height: 2px;
+    width: 1px;
+    border: none;
+}
+#Islandia tr:nth-child(5) td:nth-child(1),
+#Islandia tr:nth-child(5) td:nth-child(3),
+#Islandia tr:nth-child(5) td:nth-child(5)
+{
+    background-color: blue;
+    height: 50px;
+    border: none;
+}
+#Islandia tr:nth-child(1) td:nth-child(2) {
+    background-color: white;
+    height: 2px;
+    width: 1px;
+    border: none;
+}
+#Islandia tr:nth-child(1) td:nth-child(4) {
+    background-color: white;
+    height: 2px;
+    width: 1px;
+    border: none;
+}
+#Islandia tr:nth-child(1) td:nth-child(3),
+#Islandia tr:nth-child(2) td:nth-child(3),
+#Islandia tr:nth-child(3) td:nth-child(3),
+#Islandia tr:nth-child(4) td:nth-child(3),
+#Islandia tr:nth-child(5) td:nth-child(3) {
+    background-color: red;
+    width: 40px;
+    border: none;
+}
+#Islandia tr:nth-child(1) td:nth-child(1),
+#Islandia tr:nth-child(2) td:nth-child(1),
+#Islandia tr:nth-child(3) td:nth-child(1),
+#Islandia tr:nth-child(4) td:nth-child(1),
+#Islandia tr:nth-child(5) td:nth-child(1)
+{
+    width: 40px;
+    border: none;
+    border: none;
+}
+
+#TARpv22 tr:nth-child(5) td:nth-child(5)
+{
+    background-color: orange;
+}
+#TARpv22 tr>td {
+    background-color: #0052b4;
+    border: none;
+}
+#TARpv22 tr:nth-child(4) td:nth-child(5),
+#TARpv22 tr:nth-child(5) td:nth-child(4),
+#TARpv22 tr:nth-child(4) td:nth-child(4)
+{
+    background-color: green;
+}
+
+#TARpv22 tr:nth-child(2) td:nth-child(2) {
+    background-color: brown;
+    border: none;
+}
+#TARpv22 {
+    background-color:#0052b4 ;
+    width: 330px;
+    height: 210px;
 }
